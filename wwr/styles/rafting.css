@@ -3,13 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-root {
+:root {
     --primary-color: #92BFB1; /*Cambridge blue*/
     --secondary-color: #F4AC45; /*Hunyadi yello*/
     --accent1-color:  #694A38; /*Coffe*/
     --accent2-color: #A61C3C; /*Amaranth Purple*/
-    --heading-font: "Lora"
-    --body-font: "Playfair Display"
+    --heading-font: "Lora";
+    --body-font: "Playfair Display";
     }
     body {
   font-family: Arial, sans-serif;
@@ -24,7 +24,8 @@ header {
   background-color: var(--primary-color);
   color: var(--accent2-color);
   padding: 1rem;
-}header, main, footer {
+}
+header, main, footer {
   width: 840px;
   margin: 0 auto;
 }
@@ -34,6 +35,10 @@ nav, p, section, article {
 }
 .socialmedia a {
     text-decoration: none;
+}
+
+.socialmedia img {
+  width: 100px;
 }
 .hero {
   position: relative;
