@@ -4,10 +4,10 @@
   box-sizing: border-box;
 }
 :root {
-    --primary-color: #92BFB1; /*Cambridge blue*/
-    --secondary-color: #F4AC45; /*Hunyadi yello*/
-    --accent1-color:  #694A38; /*Coffe*/
-    --accent2-color: #A61C3C; /*Amaranth Purple*/
+    --primary-color: #92BFB1; /Cambridge blue/
+    --secondary-color: #F4AC45; /Hunyadi yello/
+    --accent1-color:  #694A38; /Coffe/
+    --accent2-color: #A61C3C; /Amaranth Purple/
     --heading-font: "Lora";
     --body-font: "Playfair Display";
     }
@@ -24,8 +24,7 @@ header {
   background-color: var(--primary-color);
   color: var(--accent2-color);
   padding: 1rem;
-}
-header, main, footer {
+}header, main, footer {
   width: 840px;
   margin: 0 auto;
 }
@@ -33,12 +32,14 @@ nav, p, section, article {
   margin: 16px;
   padding: 8px;
 }
-.socialmedia a {
+.socialmedia image {
+  width: 32px;
+  height: 32px;
+  margin: 0 5px;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: transform 0.2s ease;
     text-decoration: none;
-}
-
-.socialmedia img {
-  width: 100px;
 }
 .hero {
   position: relative;
