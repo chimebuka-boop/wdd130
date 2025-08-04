@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   --primary-color: #92BFB1; /* Cambridge Blue */
   --secondary-color: #F4AC45; /* Hunyadi Yellow */
@@ -11,28 +12,34 @@
   --heading-font: "Lora", serif;
   --body-font: "Playfair Display", serif;
 }
+
 body {
-  font-family: vacr(--body-font);
+  font-family: var(--body-font);
   background-color: var(--primary-color);
   color: var(--accent2-color);
 }
+
 h1, h2 {
   font-family: var(--heading-font);
   color: var(--primary-color);
 }
+
 header {
   background-color: var(--primary-color);
   color: var(--accent2-color);
   padding: 1rem;
 }
+
 header, main, footer {
   width: 840px;
   margin: 0 auto;
 }
+
 nav, p, section, article {
   margin: 16px;
   padding: 8px;
 }
+
 .socialmedia img {
   width: 32px;
   height: 32px;
@@ -42,14 +49,17 @@ nav, p, section, article {
   transition: transform 0.2s ease;
   text-decoration: none;
 }
+
 .hero {
   position: relative;
 }
+
 .hero img {
   display: block;
   width: 100%;
   height: auto;
 }
+
 h1 {
   position: absolute;
   top: 20px;
@@ -60,6 +70,7 @@ h1 {
   background-color: var(--accent1-color);
   color: #fff;
 }
+
 .hero article img {
   float: right;
   width: 125px;
