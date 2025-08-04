@@ -1,9 +1,9 @@
 :root {
-  --primary-color: #005f73;
-  --accent1-color: #0a9396;
-  --accent2-color: #94d2bd;
-  --body-font: 'Roboto', sans-serif;
-  --heading-font: 'Playfair Display', serif;
+  --primary-color: #DAD6D6; /* Timber Wolf */
+  --secondary-color: #F4AC45; /* Hunyadi Yellow */
+  --accent1-color: #694A38; /* Coffee */
+  --accent2-color: #A61C3C; /* Amaranth Purple */
+  --heading-font: "Lora", serif;
 }
 
 * {
